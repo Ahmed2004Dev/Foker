@@ -748,3 +748,46 @@ p {
     background-color: #EC2403;
 }
 
+/* section 9 */
+.s-9{
+    background-color: #333333;
+    padding:15px 0;
+}
+
+.cont-s-9 ul {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cont-s-9 ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.cont-s-9 ul li i {
+    font-size: 20px;
+    color: #fff;
+    transition: all .5s;
+}
+
+.cont-s-9 ul li i:hover {
+    color: #FF305B;
+    cursor: pointer;
+}
+
+.cont-s-9 .copyright-s-9{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.cont-s-9 .copyright-s-9 a{
+    color:#FF305B;
+    text-decoration: none;
+}
+
+.cont-s-9 .copyright-s-9 a:hover{
+    text-decoration:underline;
+    color: #FF305B;
+}
