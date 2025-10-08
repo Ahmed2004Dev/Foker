@@ -389,3 +389,75 @@ p {
     line-height: 25px;
     margin-bottom: 0px;
 }
+
+/* section 4 */
+.cont-s-4 ul {
+    list-style: none;
+    text-align: center;
+    margin-top: -55px;
+    margin-bottom: 55px;
+}
+
+.cont-s-4 ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.cont-s-4 ul li a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.cont-s-4 ul li .a-1 {
+    color: #FF305B;
+}
+
+.cont-s-4 ul li:hover a {
+    color: #ff305b;
+}
+
+.item-s-4 {
+    float: left;
+    width: 32%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.cont-item-s-4 .space {
+    margin: 0 2%;
+}
+
+.item-s-4 img {
+    width: 100%;
+    background: no-repeat;
+    display: block;
+}
+
+.overlay-s-4 {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.overlay-s-4 i {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    color: #FF305B;
+}
+
+.item-s-4:hover .overlay-s-4 {
+    background: rgba(0, 0, 0, 0.57);
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
