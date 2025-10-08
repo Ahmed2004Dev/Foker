@@ -672,3 +672,79 @@ p {
 .text-item-s-7 a:hover i {
     color: #ff305b
 }
+
+/* section 8 */
+.s-8{
+    padding:40px 0;
+}
+.s-8 form {
+    width: 60%;
+    margin: auto;
+}
+
+.s-8 form .top-side input,
+.bottom-side * {
+    font-size: 15px;
+    color: #555;
+    background-color: #fff;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 15px;
+    display: block;
+    height: 40px;
+}
+
+.top-side *::placeholder ,
+.bottom-side *::placeholder {
+    text-transform: capitalize;
+    color: #a8a8a8;
+}
+
+.bottom-side *:focus {
+    border: 0;
+    border: 1px solid #FF305B;
+    outline: 0;
+}
+
+.top-side input:focus{
+    border: 0 !important;
+    border: 1px solid #FF305B !important;
+    outline: 0 !important;
+}
+
+.top-side * {
+    float: left;
+    width: 49%;
+}
+
+.top-side .name-input {
+    margin-right: 2% !important;
+}
+
+.bottom-side * {
+    width: 100%;
+}
+
+.bottom-side textarea {
+    resize: none;
+    height: 150px
+}
+
+.send-bottom {
+    background-color: #FF305B;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+    border:0;
+}
+
+.send-bottom:hover {
+    background-color: #EC2403;
+}
+
