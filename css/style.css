@@ -80,3 +80,90 @@ img {
     right: 0;
     top: 5px;
 }
+
+/* section 1 */
+.s-1 {
+    background: url(https://routeegy.github.io/Fokir/img/header.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.nav {
+    margin-top: 2%;
+}
+
+.logo {
+    color: #FF305B;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    float: left;
+    vertical-align: middle;
+    width: 25%;
+    margin-right: 25%;
+}
+
+.ul-nav {
+    width: 50%;
+    list-style: none;
+    float: left;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.ul-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ul-nav li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.ul-nav li a:hover {
+    color: #FF305B;
+    transition: .5s;
+}
+
+.home-li {
+    color: #FF305B !important;
+}
+
+.content-s-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.p-1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    font-size: 25px;
+}
+
+.content-s-1 h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #FF305B;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.content-s-1 .p-2 {
+    font-weight: 150;
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    border-right: solid #fff 3px;
+    padding-right: 15px;
+}
