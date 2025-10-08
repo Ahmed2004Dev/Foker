@@ -167,3 +167,167 @@ img {
     border-right: solid #fff 3px;
     padding-right: 15px;
 }
+
+/* section 2 */
+
+.left-s-2 {
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.cont-img {
+    width: 65%;
+    margin: auto;
+    border: solid 7.5px #555555;
+    border-radius: 5px;
+}
+
+.cont-img-overlay {
+    width: 100%;
+    position: relative;
+    transform: translate(20px, 20px);
+}
+
+.cont-img-overlay img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.overlay-s-2 {
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
+    border-radius: 5px;
+}
+
+.cont-img:hover .overlay-s-2 {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.overlay-s-2 ul {
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 60%;
+}
+
+.overlay-s-2 ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.overlay-s-2 ul li i {
+    font-size: 20px;
+    color: #fff;
+    transition: all .5s;
+}
+
+.overlay-s-2 ul li i:hover {
+    color: #FF305B;
+    cursor: pointer;
+}
+
+.right-s-2 {
+    width: 50%;
+    float: left;
+}
+
+.right-s-2 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+    padding-left: 10px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.right-s-2 h2::before {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 4px;
+    background: #FF305B;
+    top: 5px;
+    left: 0px;
+}
+
+.des-s-2 {
+    color: #555555;
+    line-height: 24px;
+    margin-bottom: 33px;
+    border-bottom: 1px dashed #555555;
+    padding-bottom: 33px;
+}
+
+.right-s-2 ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.right-s-2 ul li {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 16px;
+}
+
+.right-s-2 ul li span,
+p {
+    display: inline-block;
+}
+
+.right-s-2 ul .li-s {
+    width: 40%
+}
+
+.right-s-2 ul li span {
+    color: #333333;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px
+}
+
+.right-s-2 ul li p {
+    font-size: 15px;
+    color: #555555;
+}
+
+.right-s-2 button {
+    background: #FF305B;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 24px;
+    transition: .5s;
+}
+
+.right-s-2 button:hover {
+    background: #EC2403;
+    cursor: pointer;
+}
+
+.right-s-2 button i {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.right-s-2 .but-2 {
+    margin-left: 10px;
+    text-transform: capitalize;
+}
