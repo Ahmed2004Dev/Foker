@@ -595,3 +595,80 @@ p {
     border: solid 1px #ff305b;
     cursor: pointer;
 }
+
+/* section 7 */
+.s-7 {
+    background-color: #F1F1F1;
+}
+
+.item-s-7 {
+    float: left;
+    width: 32%;
+}
+
+.cont-item-s-7 .space {
+    margin: 0 2%;
+}
+
+.cont-img-s-7 img {
+    width: 100%;
+}
+
+.cont-img-s-7 iframe {
+    width: 100%;
+    display: block;
+    height:220px
+}
+
+.text-item-s-7 {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.text-item-s-7 * {
+    margin-bottom: 15px;
+}
+
+.text-item-s-7 .line-1,
+.line-3 {
+    color: #555555;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+    display: block;
+}
+
+.text-item-s-7 .line-2 {
+    font-size: 24px;
+    color: #333333;
+    text-transform: capitalize;
+    transition: all .5s;
+    display: block;
+}
+
+.line-2:hover {
+    color: #ff305b;
+    cursor: pointer;
+}
+
+.text-item-s-7 a {
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.text-item-s-7 a i {
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.text-item-s-7 a:hover {
+    color: #ff305b;
+}
+
+.text-item-s-7 a:hover i {
+    color: #ff305b
+}
