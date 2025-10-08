@@ -461,3 +461,37 @@ p {
     opacity: 1;
     cursor: pointer;
 }
+
+/* section 5 */
+.s-5 {
+    background: #F1F1F1;
+    padding: 50px 0
+}
+
+.item-5 {
+    float: left;
+    width: 25%;
+    padding: 10px
+}
+
+.cont-item-s-5 * {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.cont-item-s-5 i {
+    color: #ff305b;
+    font-size: 26px;
+}
+
+.cont-item-s-5 .number {
+    font-size: 26px;
+    font-weight: 800;
+    color: #333
+}
+
+.cont-item-s-5 .des {
+    color: #555555;
+    text-transform: capitalize;
+}
